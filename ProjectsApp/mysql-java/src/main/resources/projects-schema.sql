@@ -85,4 +85,3 @@ INSERT INTO project_category (project_id, category_id)
 VALUES (1, 1), (2, 2);
 
 SELECT 'Database setup completed successfully!' as message;
-
