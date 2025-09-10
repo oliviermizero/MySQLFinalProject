@@ -57,12 +57,12 @@ The database follows a normalized design with:
 
 ## Project Requirements Met
 
-**CRUD Operations**: Complete Create, Read, Update, Delete functionality  
-**UPDATE Statement**: Modify project details  
-**DELETE Statement**: Remove projects with CASCADE  
-**PreparedStatement.executeUpdate()**: Proper return value usage  
-**Transaction Management**: Commit/rollback operations  
-**Menu-driven Interface**: User-friendly console application  
+- **CRUD Operations**: Complete Create, Read, Update, Delete functionality  
+- **UPDATE Statement**: Modify project details  
+- **DELETE Statement**: Remove projects with CASCADE  
+- **PreparedStatement.executeUpdate()**: Proper return value usage  
+- **Transaction Management**: Commit/rollback operations  
+- **Menu-driven Interface**: User-friendly console application  
 
 ## Author
 
