@@ -66,4 +66,4 @@ The database follows a normalized design with:
 
 ## Author
 
-Created as part of MySQL/Java programming coursework.
+Created by Olivier Niyonshuti Mizero as part of MySQL/Java programming coursework.
