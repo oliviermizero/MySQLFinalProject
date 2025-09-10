@@ -1,8 +1,8 @@
 # MySQL Final Project
 
-A Java-based CRUD application for managing DIY projects using MySQL database and JDBC.
+A Java-based CRUD and T-SQL application for managing DIY projects using MySQL database and JDBC.
 
-## 🚀 Features
+## Features
 
 - **Create** new projects with details (name, estimated/actual hours, difficulty, notes)
 - **Read** and list all projects
@@ -10,7 +10,7 @@ A Java-based CRUD application for managing DIY projects using MySQL database and
 - **Delete** projects (with CASCADE deletion of related data)
 - **Select** and view project details including materials, steps, and categories
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Java 11**
 - **Maven** for dependency management
@@ -18,7 +18,7 @@ A Java-based CRUD application for managing DIY projects using MySQL database and
 - **JDBC** for database connectivity
 - **Console-based** user interface
 
-## 📋 Database Schema
+## Database Schema
 
 The application uses a normalized database with the following tables:
 - `project` - Main project information
@@ -27,7 +27,7 @@ The application uses a normalized database with the following tables:
 - `category` - Project categories
 - `project_category` - Many-to-many relationship between projects and categories
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 - Java 11 or higher
@@ -48,14 +48,14 @@ cd ProjectsApp/mysql-java
 mvn compile exec:java -Dexec.mainClass="projects.ProjectsApp"
 ```
 
-## 📊 Entity Relationship Diagram
+## Entity Relationship Diagram
 
 The database follows a normalized design with:
 - **One-to-Many**: Project → Materials, Project → Steps
 - **Many-to-Many**: Project ↔ Categories (via junction table)
 - **CASCADE DELETE**: Removing a project automatically removes related materials and steps
 
-## 🎯 Project Requirements Met
+## Project Requirements Met
 
 ✅ **CRUD Operations**: Complete Create, Read, Update, Delete functionality  
 ✅ **UPDATE Statement**: Modify project details  
@@ -64,6 +64,6 @@ The database follows a normalized design with:
 ✅ **Transaction Management**: Commit/rollback operations  
 ✅ **Menu-driven Interface**: User-friendly console application  
 
-## 👨‍💻 Author
+## Author
 
 Created as part of MySQL/Java programming coursework.
